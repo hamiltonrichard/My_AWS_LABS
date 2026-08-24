@@ -1,2 +1,3 @@
 # My_AWS_LABS
-AI generated Labs
+
+This is a collection of labs used during my AWS CLF-02 study.
