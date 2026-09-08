@@ -2,9 +2,9 @@ import boto3
 
 def lambda_handler(event, context):
     # Create an S3 client using the IAM role
-    s3_client = boto3.client('s3', region_name='us-east-1')
+    s3_client = boto3.client('s3', region_name='YOUR_REGION')
     # Define the bucket name
-    bucket_name = 'mybucket-09-27'
+    bucket_name = 'YOUR-UNIQUE-BUCKET-NAME'
     # Create the bucket
     try:
         response = s3_client.create_bucket(Bucket=bucket_name)
